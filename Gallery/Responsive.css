@@ -1,0 +1,13 @@
+@media screen and (max-width:500px){
+    .content--main--background{
+        padding: 3em;
+    }
+    .gallery-items{
+        width: 100%;
+        grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+        gap: 15px;
+    }
+    .card{
+        width: 100%;
+    }
+}

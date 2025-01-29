@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'iranyekan';
+    src: url(Font/IranYekanX/IRANYekanX-Medium.ttf) format(truetype);
+}
+
+.main {
+    height: 280px;
+}
+
+.main--background {
+    background: url(./photo/background/agriculture-farming-tractor-hewx8g0bvy3xq57t.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.content--main--background {
+    position: relative;
+    top: 1rem;
+    padding: 10em;
+    color: #fff;
+}
+
+.content--main--background h3 span a {
+    color: #1FA12E;
+}
+
+.gallery{
+    padding: 2rem 4rem;
+    background: #000;
+}
+
+.content-gallery{
+    text-align: center;
+}
+
+.content-gallery h2{
+    font-size: 1rem;
+    color: #1FA12E;
+}
+
+.content-gallery h1{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.gallery-items{
+    padding: 4rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+    justify-items: center;
+    gap: 10px;
+}
+
+.card{
+    border-radius: 10px;
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    height: 300px;
+    width: 350px;
+    transition: 500ms ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: blur(5px);
+}
+
+.card:nth-child(1){
+    background: url(./photo/g1\ \(1\).jpg) no-repeat;
+}
+.card:nth-child(2){
+    background: url(./photo/g2.jpg) no-repeat;
+}
+.card:nth-child(3){
+    background: url(./photo/g3.jpg) no-repeat;
+}
+.card:nth-child(4){
+    background: url(./photo/g4.jpg) no-repeat;
+}
+.card:nth-child(5){
+    background: url(./photo/g5.jpg) no-repeat;
+}
+.card:nth-child(6){
+    background: url(./photo/g6.jpg) no-repeat;
+}
+.card:nth-child(7){
+    background: url(./photo/g7.jpg) no-repeat;
+}
+.card:nth-child(8){
+    background: url(./photo/g8.jpg) no-repeat;
+}
+.card:nth-child(9){
+    background: url(./photo/g9.jpg) no-repeat;
+}
+.card:nth-child(10){
+    background: url(./photo/g10.jpg) no-repeat;
+}
+.card:nth-child(11){
+    background: url(./photo/g11.jpg) no-repeat;
+}
+.card:nth-child(12){
+    background: url(./photo/g12.jpg) no-repeat;
+}

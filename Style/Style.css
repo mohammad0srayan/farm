@@ -1,0 +1,650 @@
+@font-face{
+    font-family: 'iranyekan';
+    src: url(Font/IranYekanX/IRANYekanX-Medium.ttf) format(truetype); 
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+    background: url(./background/banner1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-main{
+    padding: 15rem 10rem;
+}
+
+.content-main h2{
+    animation-name: colors;
+    animation-duration: 5s;
+    color: #ffffffbe;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+@keyframes colors{
+    0%{
+        transform: rotate(-20deg);
+        color: #1FA12E;
+    }
+    50%{
+        color: #dfc5c5;
+    }
+    100%{
+        color: #fff;
+    }
+}
+
+.content-main h1{
+    animation-name: colors;
+    animation-duration: 5s;
+    font-size: 4.5rem;
+    width: 470px;
+    color: #fff;
+}
+
+.btn-main{
+    padding: 1.2rem 0;
+}
+
+.btn-main a{
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    background: #fff;
+    border: 2px solid #fff;
+    color: #1FA12E;
+    transition: 500ms ease-in-out;
+}
+
+.btn-main a:hover{
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.ftr-items-main{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-ftr{
+    animation-name: rotate;
+    animation-duration: 3s;
+    border-radius: 15px;
+    background: #141414b0;
+    backdrop-filter: blur(10px);
+    height: 200px;
+    width: 280px;
+}
+
+@keyframes rotate{
+    0%{
+        transform: scale(1.1);
+    }
+    50%{
+        background: #000;
+    }
+    100%{
+        background: #141414b0;
+    }
+}
+
+.img-item{
+    padding: 10px;
+    width: 100%;
+    height: 130px;
+}
+
+.img-item img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-item{
+    padding: 8px 10px;
+}
+
+.content-item a{
+    line-height: 22px;
+    color: #fff;
+    transition: 300ms ease-in-out;
+}
+
+.content-item a:hover{
+    color: #1FA12E;
+}
+
+.about{
+    padding: 5rem;
+    background: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about-content h2{
+    color: #1FA12E;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about-content h1{
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+.about-content p{
+    color: #ffffffc5;
+    padding: 1rem 0;
+    font-size: 15px;
+    width: 480px;
+}
+
+.btn-about{
+    padding: 1rem 0;
+}
+
+.btn-about a{
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    background: #1FA12E;
+    border: 2px solid #1FA12E;
+    color: #fff;
+    transition: 300ms ease-in-out;
+}
+
+.btn-about a:hover{
+    background: none;
+    border: 2px solid #1FA12E;
+    color: #1FA12E;
+}
+
+.about-img{
+    height: 400px;
+    width: 500px;
+}
+
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background: #080808;
+}
+
+.service-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.img-service{
+    height: 400px;
+    width: 500px;
+}
+
+.img-service img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-service h2{
+    color: #1FA12E;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content-service h1{
+    font-size: 2.1rem;
+    color: #fff;
+}
+
+.content-service p{
+    color: #ffffffc5;
+    padding: 1rem 0;
+    font-size: 15px;
+    width: 480px;
+}
+
+.menu-service{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-service a{
+    margin: 7px 5px;
+    color: #fff;
+}
+
+.icon-tik{
+    position: relative;
+    top: 4px;
+    left: 8px;
+    font-size: 20px;
+    color: #1FA12E;
+}
+
+.test-photo{
+    padding: 5rem;
+    background: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-img{
+    position: relative;
+    height: 500px;
+    width: 650px;
+}
+
+.test-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.before{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.after{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.healthy{
+    padding: 5rem;
+    background: #080808;
+}
+
+.content-healthy{
+    padding: 0 4rem;
+}
+
+.content-healthy h2{
+    color: #1FA12E;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content-healthy h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.content-healthy p{
+    color: #ffffffc5;
+    font-size: 15px;
+}
+
+.gallery-healthy{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    background: transparent;
+}
+
+.card-img{
+    width: 100%;
+    height: 60%;
+}
+
+.card-img img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-card{
+    padding: 1rem 0;
+}
+
+.content-card a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.3rem;
+    transition: 300ms ease-in-out;
+}
+
+.content-card a:hover{
+    color: #1FA12E
+}
+
+.content-card p{
+    padding: 0.6rem 0;
+    color: #ffffffc2;
+    font-size: 15px;
+    width: 250px;
+}
+
+.register{
+    padding: 5rem 7rem;
+    width: 100%;
+    height: 350px;
+    line-height: 2rem;
+    background: url(./background/register/agriculture-farming-tractor-hewx8g0bvy3xq57t.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register h2{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.register p{
+    padding: 0.6rem 0;
+    color: #ffffffc2;
+    font-size: 22px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.d{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.form .submit input{
+    cursor: pointer;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 17px;
+    background: #1FA12E;
+    margin-top: 1rem;
+}
+
+.email{
+    position: relative;
+    padding: 12px 30px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.security{
+    padding: 1rem 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.security a{
+    color: #1FA12E;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background: #000;
+}
+
+.content-contact{
+    text-align: center;
+}
+
+.content-contact h2{
+    color: #1FA12E;
+    font-size: 0.8rem;
+}
+
+.content-contact h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.contact-chat{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-card{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 20px;
+    background: #111010;
+    height: 300px;
+    width: 350px;
+}
+
+.contact-card a{
+    color: #1FA12E;
+    font-size: 4.5rem;
+}
+
+.contact-card p{
+    padding: 0.3rem 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.img-chat{
+    width: 60px;
+    height: 60px;
+}
+
+.content-img-chat{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.img-chat img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-btn div{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #1FA12E;
+    transition: all 500ms ease-in-out;
+}
+
+.icon-btn div:nth-child(1){
+    background-color: #fff;
+}
+
+.icon-btn div:hover:nth-child(1){
+    background-color: #1FA12E;
+}
+
+.footer{
+    width: 100%;
+    padding: 4rem 7rem;
+    background: #111111;
+}
+
+.items-ftr{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 7rem;
+}
+
+.footer h2{
+    color: #fff;
+}
+
+.about-us-ftr{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.about-us-ftr p{
+    padding: 1.1rem 0;
+    width: 300px;
+    color: #ffffff91;
+}
+
+.icon-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-about a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    font-size: 17px;
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    transition: 300ms ease-in-out;
+}
+
+.icon-about a:hover{
+    background: #1FA12E;
+}
+
+.menu-cate li{
+    margin: 17px 0;
+}
+
+.menu-cate a{
+    color: #ffffff6c;
+    transition: 200ms ease-in-out;
+}
+
+.menu-cate a:hover{
+    color: #fff;
+}
+
+.archives ul li{
+    padding: 17px 0;
+}
+
+.archives ul a{
+    color: #ffffff6c;
+    transition: 200ms ease-in-out;
+}
+
+.archives ul a:hover{
+    color: #fff;
+}
+
+.contact-us ul li{
+    letter-spacing: 1px;
+    color: #ffffff6c;
+    padding: 12px 0px;
+}
+
+.con-icon{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    color: #fff;
+}
+
+.contact-us ul a{
+    color: #ffffff6c;
+    transition: 200ms ease-in-out;
+}
+
+.contact-us ul a:hover{
+    color: #fff;
+}
+
+.footer-site{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer-site p{
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff9f;
+}
+
+.footer-site a{
+    color: #fff;
+}

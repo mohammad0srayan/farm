@@ -1,0 +1,358 @@
+@font-face{
+    font-family: 'iranyekan';
+    src: url(Font/IranYekanX/IRANYekanX-Medium.ttf) format(truetype); 
+}
+
+.main {
+    height: 280px;
+}
+
+.main--background {
+    background: url(./Assets/agriculture-farming-tractor-hewx8g0bvy3xq57t.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.content--main--background {
+    position: relative;
+    top: 1rem;
+    padding: 10em;
+    color: #fff;
+}
+
+.content--main--background h3 span a {
+    color: #1FA12E;
+}
+
+.services{
+    background: #000;
+    padding: 2rem;
+}
+
+.content-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-service h1{
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.content-service p{
+    padding: 1rem 0;
+    width: 400px;
+    font-size: 0.8em;
+    color: #e6dddd9d;
+}
+
+.content-service a{
+    margin-top: 0.5rem;
+    border: 2px solid #1FA12E;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #fff;
+    background: #1FA12E;
+    transition: 500ms ease-in-out;
+
+}
+.content-service a:hover{
+    color: #1FA12E;
+    background: none;
+}
+
+.container{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card-service{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+
+.card-content h2{
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+.card-content h2:hover{
+    color: #1FA12E;
+}
+
+.card-icon{
+    position: relative;
+    top: 4px;
+    height: 30px;
+    width: 30px;
+}
+
+.card-icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: invert(43%) sepia(100%) saturate(371%) hue-rotate(77deg) brightness(94%) contrast(101%);
+}
+
+.card-content{
+    color: #fff;
+}
+
+.card-content p{
+    padding: 0.5rem 0;
+    color: #ffffff96;
+    font-size: 15px;
+    width: 320px;
+}
+
+.Service-provid{
+    padding: 3rem;
+    background: url(Assets/banner3.jpg) no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.title-srv{
+    text-align: center;
+}
+
+.title-srv h2{
+    font-size: 0.9rem;
+    color: #1FA12E;
+}
+
+.title-srv h1{
+    padding: 0.3em;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.provid{
+    padding: 3rem;
+}
+
+.provid-items{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.card-img-prv{
+    height: 40px;
+    width: 40px;
+}
+
+.card-img-prv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(77deg) brightness(100%) contrast(100%);
+}
+
+.card-provid{
+    color: #fff;
+}
+
+.card-provid h2{
+    padding: 0.8rem 0;
+}
+
+.card-provid p{
+    color: #ffffff96;
+    font-size: 15px;
+    width: 320px;
+}
+
+.gallery{
+    padding: 3rem;
+    background: #000;
+}
+
+.gallery-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.gallery-card{
+    height: 400px;
+    width: 350px;
+    color: #fff;
+}
+
+.card-img{
+    height: 200px;
+    width: 100%;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.gallery-content{
+    padding: 1rem 0;
+}
+
+.gallery-card h2{
+    font-size: 1em;
+    color: #1FA12E;
+}
+
+.gallery-card p{
+    padding: 0.5rem 0;
+    color: #ffffff96;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    padding: 4rem 7rem;
+    background: #111111;
+}
+
+.items-ftr{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 7rem;
+}
+
+.footer h2{
+    color: #fff;
+}
+
+.about-us-ftr{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.about-us-ftr p{
+    padding: 1.1rem 0;
+    width: 300px;
+    color: #ffffff91;
+}
+
+.icon-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-about a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    font-size: 17px;
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    transition: 300ms ease-in-out;
+}
+
+.icon-about a:hover{
+    background: #1FA12E;
+}
+
+.menu-cate li{
+    margin: 17px 0;
+}
+
+.menu-cate a{
+    color: #ffffff6c;
+    transition: 200ms ease-in-out;
+}
+
+.menu-cate a:hover{
+    color: #fff;
+}
+
+.archives ul li{
+    padding: 17px 0;
+}
+
+.archives ul a{
+    color: #ffffff6c;
+    transition: 200ms ease-in-out;
+}
+
+.archives ul a:hover{
+    color: #fff;
+}
+
+.contact-us ul li{
+    letter-spacing: 1px;
+    color: #ffffff6c;
+    padding: 12px 0px;
+}
+
+.con-icon{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    color: #fff;
+}
+
+.contact-us ul a{
+    color: #ffffff6c;
+    transition: 200ms ease-in-out;
+}
+
+.contact-us ul a:hover{
+    color: #fff;
+}
+
+.footer-site{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer-site p{
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff9f;
+}
+
+.footer-site a{
+    color: #fff;
+}
+

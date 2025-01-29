@@ -1,0 +1,149 @@
+@font-face{
+    font-family: 'iranyekan';
+    src: url(Font/IranYekanX/IRANYekanX-Medium.ttf) format(truetype); 
+}
+
+.main {
+    height: 280px;
+}
+
+.main--background {
+    background: url(Asstes/agriculture-farming-tractor-hewx8g0bvy3xq57t.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.content--main--background {
+    position: relative;
+    top: 1rem;
+    padding: 10em;
+    color: #fff;
+}
+
+.content--main--background h3 span a {
+    color: #1FA12E;
+}
+
+.content-main h1{
+    font-size: 4.5rem;
+    width: 470px;
+    color: #fff;
+}
+
+.contact{
+    padding: 3rem 6rem;
+    background: #000;
+}
+
+.contact h2{
+    padding: 0 1rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.contact-items{
+    width: 100%;
+}
+
+.form{
+    margin: 3rem 0;
+    gap: 1rem;
+}
+
+.s{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input-box input{
+    margin: 10px 20px;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 15px #1FA12E;
+    border-radius: 5px;
+    border: 2px solid #1FA12E;
+    background: none;
+    height: 60px;
+    width: 100%;
+    color: #1FA12E;
+}
+
+.input-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input-message textarea{
+    margin: 0 20px;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 15px #1FA12E;
+    border-radius: 5px;
+    border: 2px solid #1FA12E;
+    background: none;
+    height: 100px;
+    width: 100%;
+    color: #1FA12E;
+    transition: all 500ms ease-in-out;
+}
+
+textarea:focus{
+    height: 200px;
+}
+
+.btn{
+    padding: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn input{
+    padding: 15px 35px;
+    border-radius: 50px;
+    border: 2px solid #1FA12E;
+    background: #1FA12E;
+    color: #fff;
+}
+
+@media screen and (max-width:800px){
+    .content--main--background {
+        padding: 3em;
+    }
+    .input-box{
+        flex-wrap: wrap;
+    }
+    .btn{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:500px){
+    .input-box input{
+        width: 400px;
+    }
+    .input-message{
+        display: none;
+    }
+    .contact h2{
+        text-align: center;
+        font-size: 2rem;
+        color: #fff;
+    }
+}
+

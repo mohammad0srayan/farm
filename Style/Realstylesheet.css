@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "IRANYekan";
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.go{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms ease-in-out;
+}
+
+.go:hover{
+    bottom: 2.5rem;
+}
+
+.go a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 14px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    background: #1FA12E;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 8rem;
+    background: #00000075;
+    backdrop-filter: blur(10px);
+    z-index: 999;
+}
+
+header .logo{
+    text-shadow: 0 0 25px #1FA12E, 0 0 50px #1FA12E;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.logo span{
+    color: #1FA12E;
+}
+
+.menu{
+    display: flex;
+}
+
+.sidebar{
+    display: none;
+}
+
+.menu a{
+    width: max-content;
+    padding: 5px 0;
+    color: #fff;
+    font-size: 17px;
+    margin: 0px 15px;
+    transition: 300ms ease-in-out;
+}
+
+.menu a:hover{
+    color: #1FA12E;
+}
+
+.menu a span{
+    color: #1FA12E;
+}
+
+.btn-hdr a{
+    padding: 13px 40px;
+    background: #1FA12E;
+    border: 2px solid #1FA12E;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+}
+
+.btn-hdr a:hover{
+    color: #1FA12E;
+    border: 2px solid #1FA12E;
+    background: none;
+}
+
+.ionicons{
+    position: relative;
+    inset: 4px;
+}
+
+::-webkit-scrollbar{
+    width: 1.1rem;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #1FA12E;
+}
+
+::-webkit-scrollbar-track{
+    width: 100%;
+}
+
+@media screen and (max-width:1300px){
+    .footer{
+        padding: 4rem 4rem;
+    }
+    .items-ftr{
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 6rem;
+    }
+}
+@media screen and (max-width:1150px){
+    .menu{
+        display: none;
+    }
+    .s{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+    .sidebar{
+        position: relative;
+        top: 10px;
+        display: flex;
+    }
+    .sidebar a{
+        font-size: 50px;
+        color: #1FA12E;
+    }
+}

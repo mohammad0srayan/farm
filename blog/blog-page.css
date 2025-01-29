@@ -1,0 +1,263 @@
+@font-face{
+    font-family: 'iranyekan';
+    src: url(Font/IranYekanX/IRANYekanX-Medium.ttf) format(truetype); 
+}
+
+.main {
+    height: 280px;
+}
+
+.main--background {
+    background: url(./Assets/header.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.content--main--background {
+    position: relative;
+    top: 1rem;
+    padding: 10em;
+    color: #fff;
+}
+
+.content--main--background h1{
+    font-size: 2.7rem;
+}
+
+.content--main--background h3 span a {
+    font-size: 2.2rem;
+    color: #1FA12E;
+}
+
+.blog{
+    padding: 5rem;
+    background: #000;
+}
+
+.blog-items{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: start;
+    gap: 4rem;
+}
+
+.cards{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.cards .card-img{
+    width: 100%;
+    height: 300px;
+}
+
+.gallery{
+    width: 700px;
+}
+
+.card-img img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box input{
+    text-align: left;
+    background: #161616;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #4b5c4d60;
+    border-right: none;
+    padding: 0.5rem 0.3rem;
+    width: 100%;
+}
+
+.input-box button{
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 70px;
+    background: #1FA12E;
+    border-radius: 5px;
+    color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #4b5c4d60;
+    padding: 0.5rem;
+}
+
+.container-card{
+    padding: 1.5rem 0;
+    text-align: left;
+}
+
+.container-card p{
+    color: #ffffff57;
+}
+
+.container-card p span{
+    color: #1FA12E;
+}
+
+.container-card p a{
+    color: #fff;
+}
+
+.container-card h2{
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.container-card .btn{
+    margin-top: 2rem;
+}
+
+.btn a{
+    padding: 13px 30px;
+    background: #1FA12E;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.number-page{
+    margin-top: 2rem;
+}
+
+.number-page .page{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.page a{
+    margin: 0 4px;
+    height: 40px;
+    width: 35px;
+    background: #1FA12E;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed{
+    position: sticky;
+    top: 15%;
+}
+
+.container-fix{
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.container-fix h2{
+    font-weight: 500;
+    color: #fff;
+}
+
+.container-fix ul{
+    margin: 2rem 0;
+}
+
+.icon-src{
+    position: relative;
+    inset: 4px 4px;
+    color: #1FA12E;
+}
+
+.container-fix ul li{
+    margin: 15px 0;
+}
+
+.container-fix ul a{
+    color: #fff;
+}
+
+.page a:nth-child(2){
+    background: transparent;
+}
+
+@media screen and (max-width:900px){
+    .blog-items{
+        gap: 7rem;
+        flex-wrap: wrap;
+    }
+    .fixed{
+        width: 100%;
+        position: relative;
+    }
+}
+@media screen and (max-width:500px){
+    gallery{
+        width: 700px;
+    }
+    
+    .input-box button{
+        cursor: pointer;
+        padding: 0.5rem;
+        width: 70px;
+    }
+    
+    .container-card h2{
+        font-size: 1.1em;
+    }
+    
+    .btn a{
+        padding: 10px 25px;
+    }
+
+    .content--main--background {
+        padding: 4em;
+    }
+    
+    .content--main--background h1{
+        font-size: 2rem;
+    }
+    
+    .content--main--background h3 span a {
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:400px){
+    .fixed{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .gallery{
+        width: max-content;
+    }
+    
+    .cards{
+        width: 300px;
+        height: 500px;
+        border-radius: 10px;
+    }
+    
+    .cards .card-img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .card-img img{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
