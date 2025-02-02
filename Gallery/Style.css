@@ -70,7 +70,7 @@
 .card:hover{
     transform: scale(1.1);
     cursor: pointer;
-    filter: blur(5px);
+    filter: brightness(120%);
 }
 
 .card:nth-child(1){
